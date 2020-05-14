@@ -1,7 +1,7 @@
 import React from 'react';
 import BaseView from './base/BaseView';
 
-class Teams extends BaseView {
+export default class Teams extends BaseView {
     constructor(props) {
         super(props);
         this.state = {

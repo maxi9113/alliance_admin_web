@@ -1,7 +1,7 @@
 import React from 'react';
 import BaseView from './base/BaseView';
 
-class Users extends BaseView {
+export default class Users extends BaseView {
     constructor(props) {
         super(props);
         this.state = {

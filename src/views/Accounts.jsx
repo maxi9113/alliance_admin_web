@@ -1,8 +1,7 @@
-import React from 'react';
 import BaseView from './base/BaseView';
 
 
-class Accounts extends BaseView {
+export default class Accounts extends BaseView {
     constructor(props) {
         super(props);
         this.state = {

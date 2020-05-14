@@ -14,12 +14,14 @@
 
 import React from 'react';
 
-export default  Admin = ({children}) => (
+const Admin = ({children}) => (
   <div className="shopping-list">
     {children}
   </div>
 );
 
+
+export default Admin;
 
 /* export default class Admin extends React.Component {
   constructor(props) {

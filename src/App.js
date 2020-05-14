@@ -31,7 +31,7 @@ import Users from './views/Users';
 import Teams from './views/Teams';
 import Accounts from './views/Accounts';
 
-export default App = () => {
+const App = () => {
   return (
     <Admin title="Admin Alliance" template="alliance-material">
       <Home url="/home" title="Inicio" />
@@ -41,3 +41,5 @@ export default App = () => {
     </Admin>
   )
 }
+
+export default App;

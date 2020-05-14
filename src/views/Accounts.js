@@ -1,12 +1,16 @@
+import React from 'react';
 
-import BaseView from './base/BaseView';
+const Accounts = () => {
+    return(
+        <h1>Accounts</h1>
+    )
+}
+export default Accounts;
 
-export default class Teams extends BaseView {
-    constructor(props) {
-        super(props);
-        this.state = {
-            value: null,
-        };
+
+/* export default class Accounts extends BaseView {
+    constructor() {
+        super();
         this.can_create = false;
         this.can_edit = false;
         this.can_delete = false;
@@ -16,7 +20,7 @@ export default class Teams extends BaseView {
         return [
             { "label": "Username", "key": "username", "sortable": true, "filters": ["like", "equals", "not equals"] },
             { "label": "Name", "key": "name" },
-            { "label": "Country", "key": "country_id" },
+            { "label": "Country", "key": "country_id", "values": {"1": "USA", "2": "Chile"}},
         ];
     }
-}
+} */

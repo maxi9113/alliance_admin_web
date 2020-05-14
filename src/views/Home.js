@@ -1,10 +1,17 @@
 import React from 'react';
-import BaseView from './base/BaseView';
+
+const Home = () => {
+    return(
+        <h1>Accounts</h1>
+    )
+}
+export default Home;
 
 
-export default class Home extends BaseView {
-    constructor(props) {
-        super(props);
+
+/* export default class Home extends BaseView {
+    constructor() {
+        super();
         this.state = {
             value: null,
         };
@@ -15,4 +22,4 @@ export default class Home extends BaseView {
             <h1>Hola soy la pagina de home</h1>
         );
     }
-}
+} */

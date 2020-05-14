@@ -1,9 +1,15 @@
 import React from 'react';
-import BaseView from './base/BaseView';
+const Users = () => {
+    return (
+        <h1>Users</h1>
+    )
+}
 
-export default class Users extends BaseView {
-    constructor(props) {
-        super(props);
+export default Users;
+
+/* export default class Users extends BaseView {
+    constructor() {
+        super();
         this.state = {
             value: null,
         };
@@ -19,4 +25,4 @@ export default class Users extends BaseView {
             {"label": "Country", "key": "country_id"},
         ];
     }
-}
+} */

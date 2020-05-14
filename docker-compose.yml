@@ -1,0 +1,25 @@
+version: '3.4'
+
+#use la primera vez: docker-compose up -d
+#luego docker-compose up
+
+networks:
+  custos:
+    # external: true
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/ash
+    networks:
+      - custos
+    ports:
+      - "4200:4200"
+

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BaseView from './base/BaseView';
 
 export default class Teams extends BaseView {

@@ -12,7 +12,7 @@
 //                  template_mode=None,
 //                  category_icon_classes=None):
 
-
+import React from 'react';
 export default class Admin extends React.Component {
   constructor(props) {
     super(props);

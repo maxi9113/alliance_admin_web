@@ -36,7 +36,7 @@ import Accounts from './views/Accounts';
 export default function App() {
   return (
     <Admin title="Admin Alliance" template="alliance-material">
-      <Home url="/home" title="Inicio">
+      <Home url="/home" title="Inicio"/>
       <Users url="/users" api_url="/api/v2/users" title="Usuarios" />
       <Teams url="/teams" />
       <Accounts url="/accounts" />

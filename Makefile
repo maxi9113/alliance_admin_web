@@ -1,11 +1,13 @@
+PROJECT_NAME=alliance_admin_web
+
 build:
-	docker build -t alliance_admin_web .
+	docker build -t ${PROJECT_NAME} .
 
 shell:
-	docker run  -p 3000:3000 -it --rm -v $(shell pwd):/app --entrypoint=/bin/ash alliance_admin_web
+	docker run  -p 3000:3000 -it --rm -v $(shell pwd):/app --entrypoint=/bin/ash ${PROJECT_NAME}
 
 run:
-	docker run -p 3000:3000 -it --rm alliance_admin_web
+	docker run -p 3000:3000 -it --rm ${PROJECT_NAME}
 
 setup-network:
 	docker network inspect dpy-tests || docker network create dpy-tests

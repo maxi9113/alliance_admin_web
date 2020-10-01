@@ -1,1 +1,0 @@
-//class AdminIndexView(BaseView):

@@ -18,7 +18,7 @@
     "@material-ui/styles": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "recharts": "^1.6.2",
+    "recharts": "^2.1.14",
     "moment": "^2.24.0",
     "react-perfect-scrollbar": "^1.5.3",
     "react-router-dom": "^5.0.1",
